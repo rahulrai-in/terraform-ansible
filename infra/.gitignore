@@ -1,0 +1,18 @@
+# Terraform ignore
+**/.terraform/*
+
+*.tfstate *.tfstate.*
+
+crash.log
+
+# Ignore override files
+override.tf
+override.tf.json
+
+*_override.tf
+*_override.tf.json
+
+*tfplan*
+
+# Ansible ignore
+*.retry

@@ -1,0 +1,2 @@
+- name: TF tasks
+  import_tasks: tf-tasks.yaml

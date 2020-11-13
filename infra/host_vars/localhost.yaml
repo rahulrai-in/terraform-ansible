@@ -1,0 +1,11 @@
+terraform:
+  production:
+    rg_name: "prod-ae-rg"
+    region: "australiaeast"
+    acr_name: "prodaeacr"
+    environment: "production"
+  staging:
+    rg_name: "stag-ae-rg"
+    region: "australiaeast"
+    acr_name: "stagaeacr"
+    environment: "staging"
